@@ -1,3 +1,17 @@
+class HomeModel {
+  final List<Car> cars;
+  final List<Brand> brands;
+  final List<CertifiedBenefit> certifiedInfo;
+  final List<PurchaseStep> steps;
+
+  HomeModel({
+    required this.cars,
+    required this.brands,
+    required this.certifiedInfo,
+    required this.steps,
+  });
+}
+
 class Car {
   final String title;
   final String year;
